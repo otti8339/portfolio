@@ -241,7 +241,7 @@ section .inner {
 
 .works-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
@@ -282,6 +282,10 @@ section .inner {
   object-fit: cover;
   object-position: top;
   display: block;
+}
+
+.work-thumb img.object-center {
+  object-position: center;
 }
 
 .work-info { padding: 2rem; }
